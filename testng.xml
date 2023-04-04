@@ -14,4 +14,9 @@
             <class name = "testcases.LoginTest" />
         </classes>
     </test>
+    <test name = "Test3">
+        <classes>
+            <class name = "testcases.StartReports" />
+        </classes>
+    </test>
 </suite>

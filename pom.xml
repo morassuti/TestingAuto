@@ -96,6 +96,11 @@
       <artifactId>extentreports</artifactId>
       <version>5.0.9</version>
     </dependency>
+    <dependency>
+      <groupId>org.junit.jupiter</groupId>
+      <artifactId>junit-jupiter-params</artifactId>
+      <version>5.9.1</version>
+    </dependency>
   </dependencies>
   <properties>
     <maven.compiler.source>18</maven.compiler.source>

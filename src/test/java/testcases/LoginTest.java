@@ -9,8 +9,8 @@ import reports.ExtentManager;
 
 
 public class LoginTest {
-    ExtentTest test;
-    ExtentReports report;
+    private ExtentTest test;
+    private ExtentReports report;
 
     @BeforeMethod
     public void init(){
@@ -23,13 +23,5 @@ public class LoginTest {
         test.log(Status.INFO, "First Test Case");
         test.log(Status.PASS, "Test Passed");
         //test.addScreenCaptureFromPath("","");
-
-
-
-
-
-
-
-
     }
 }

@@ -27,6 +27,5 @@ public class StartReports {
     public void doReports(){
         test.log(Status.INFO, "Second Test Case");
         test.log(Status.PASS, "Test Passed");
-
     }
 }
